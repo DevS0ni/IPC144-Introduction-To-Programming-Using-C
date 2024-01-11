@@ -17,6 +17,12 @@ After successful completion of this course, it helped me to...
   * Code complete programs using appropriate object and pointer types to solve programming problems
   * Explain the purposes of procedural programming features to inform business persons
   * Prepare programming plans using logical components to solve practical problems
+  * Execute mathematical operations accurately.
+  * Apply a systematic approach to solve problems.
+  * Use a variety of thinking skills to anticipate and solve problems.
+  * Analyze, evaluate, and apply relevant information from a variety of sources.
+  * Manage the use of time and other resources to complete projects.
+  * Take responsibility for one's own actions, decisions, and consequences.
   * Gained a handsome knowledge on all of the topics of Intro to C Programming namely-
      > Background & Features of UNIX/ LINUX OS
         ~ Purpose of an OS / History of Unix & Linux OS
