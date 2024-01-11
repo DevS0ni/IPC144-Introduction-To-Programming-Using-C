@@ -29,20 +29,65 @@ After successful completion of this course, it helped me to...
   * Manage the use of time and other resources to complete projects.
   * Take responsibility for one's own actions, decisions, and consequences.
   * Gained a handsome knowledge on all of the topics of Intro to C Programming namely-
-     > Background & Features of UNIX/ LINUX OS
-        ~ Purpose of an OS / History of Unix & Linux OS
-        ~ Features of Unix / Linux OS
+     > Computers, Information & Compilers
+        ~ Intro to Computers, Hardware, Modern Computers
+        ~ Primary Memory, Central Processing Unit (CPU)
+        ~ Devices, Memory Comparison, Softwares
+        ~ Fundamental Units (Bits, Bytes, Words, Hexadecimal)
+        ~ Memory Model, Addresses, Sets of Bytes, Limits on Addressability.
+        ~ Segmentation Faults
+        ~ Programming Languages (Generations - machine, assembly, 3rd gen, 4th gen, 5th gen)
+        ~ Features of C lang, C compiler, Linux & Windows, Basic C Syntax
+        ~ Documentation - Single (Inline) & Multi-Line Comments
+        ~ White Spaces & Indentations, Program StartUp & Output, Case Sensitivity
 
-     > Matrix Linux Server
-        ~ Purpose / Layout
-        ~ How to Access your Matrix Linux Account:
-           - From Seneca Lab Workstation
-           - From Laptop or Home Computer (Windows, Mac OSX, Linux)
-        ~ How to Logout of your Matrix Linux Account
+     > Computations
+        ~ Arithmetic Types, Size Specifiers (int & double Type Specifiers)
+        ~ const Qualifier, representing values, Integral Types
+        ~ Characters & Symbols, Negative Values, Floating-Point Data
+        ~ Value Ranges - (Integral & Floating-Point Types)
+        ~ Naming Conventions & Reserved Words
+        ~ Constant Values (Numeric & Character Constants), String Literals
+        ~ Simple Input (Format & Address), Computation (Multiplication & Assignment)
+        ~ Simple Output (Format & Address)
+        ~ Evaluating Expressions, Arithmetic Expressions
+        ~ Integral Operands & Binary Operations, Unary Operations
+        ~ Floating Point (Operands, Binary & Unary), Limits, Relational Expressions 
+        ~ Logical Expressions, deMorgan's Law, ShortHand Assignments (Integral, Binary & Unary Operands)
+        ~ Floating-Point Operands (Binary & Unary Operands)
+        ~ Ambiguities & Casting
+        ~ Mixed Type Expressions, Assignment Expressions (Promotions & Narrowing)
+        ~ Arithmetic & Relational Expressions, Compound Expressions
+        ~ Structured Programming, Preliminary Design (PseudoCode & Flowcharts)
+        ~ Selection Constructs
+           - Optional Paths : Single Statment & Code Block
+           - Alternative Paths : Single & Multiple Statments, Code Block; Binary Selection
+                                 Multiple Selections, Compound Conditions, Case-by-Case
+        ~ Conditional Expression, Iteration Constructs (while, do..while, for, flags, *avoid jumps*)
+        ~ Nested Constructs (Nested Selections, Dangling Else, Nested Iterations)
+        ~ Identifiers, Layout, Identation, Line Length, Braces, Spaces, Comments
+        ~ Magic Numbers (Unmodifiable Variables, Macro-Directive & Others)
+        ~ Errors (Syntactic & Semantic Errors)
+        ~ Testing Techniques (Black-Box Tests, Equivalence Classes, White-Box Tests, Flow-Graphs)
+        ~ Test Criteria, Debugging Techniques, IDE Debugging (Build & Execute, Testing)
+        ~ Command Line Debugging (Compile & Run, Debugging Commands, Crashes, Help)
+        ~ Walkthrough Table & Examples based on it
 
-     > Issuing Linux commands and utilities
+     > Data Structures
+        ~ Arrays (Definition, Elements, Check Array Bounds, Initialization, Parallel Arrays,
+                  Character Strings)
+        ~ Structures (Types - Primitive & Derived, Declaration & Allocating Memory, Initialization,
+                      Member Access, Walkthrough)
 
-     > Manipulating data stored in regular text files
+     > Modularity
+        ~ Modular Design & Principles, Cohesion & Coupling
+        ~ Functions (Definitions, Special Cases - void functions, no-parameters, main)
+        ~ Function Calls (Pass By Value, Mixing Types), Validations, Walkthrough
+        ~ Pointers, Address & Pointer Types, NULL Address, Parameters - Pass by Value & Address, Walkthrough
+        ~ Multiple Return Values, Prototypes (include & stdio.h), Current Directory
+        ~ Scopes (Global, Function, Block, Local Scopes, Overlapping Scopes)
+        ~ Passing Arrays, Arrays Arguments & Parameters, Barring Changes, Passing Structures, Copying & Efficiency.
+        ~ Arrow Notation, Styling & Documentation, Structure Walkthrough
 
      > Managing files and directories (including access & permissions)
 
