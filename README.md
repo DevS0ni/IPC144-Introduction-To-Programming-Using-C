@@ -6,7 +6,6 @@ This repository contains all of my code programs and work which I performed in t
 Course Description
 ----------------------------------------
 After successful completion of this course, it helped me to...
-
 ```
   * Cover the fundamental principles of computer programming, with an emphasis on problem solving strategies
     using structured programming techniques.
@@ -88,9 +87,41 @@ After successful completion of this course, it helped me to...
         ~ Scopes (Global, Function, Block, Local Scopes, Overlapping Scopes)
         ~ Passing Arrays, Arrays Arguments & Parameters, Barring Changes, Passing Structures, Copying & Efficiency.
         ~ Arrow Notation, Styling & Documentation, Structure Walkthrough
+        ~ Buffered Input, Unformatted Input, clearing the buffer, Passing Execution, Formatted Input, Conversion Specifiers
+        ~ Whitespace, Conversion Control, Problems with %c, Plain Characters, Return Values, Validation.
+        ~ Buffering, Unformatted Output, Formatted Output, Conversion Specifiers & Controls (Integral & Floating-Point Values)
+        ~ Special Characters, Reference Examples, Portability Note
+        ~ Mathematical Functions (Standard Library, Integer Absolute Value, Random Numbers, math
+                                  Floating-Point Absolute Value, Floor, Ceiling, Truncating, Rounding,
+                                  Square Root, Powers, Logarithm, Power of e)
+        ~ Time Functions (Calendar Time - time, difftime, Process Time - clock)
+        ~ Character - Manipulation (tolower,toupper), Analysis (islower, isupper, isalpha, isdigit, isspace, isblank)
 
-     > Managing files and directories (including access & permissions)
+     > Secondary Storage
+        ~ Files, Text Format, Connection, Opening a File, Closing, communication
+        ~ Writing - Formatted Writing, Unformatted Writing, Reading - Formatted & Unformatted Reading
+        ~ State of a File Object - Rewind, End of a File, Comparison
+        ~ Records, Fields, Tables
+
+     > Refinements
+        ~ Character Strings, Definition, Allocation Memory, Initializing Memory, String Handling (Iterations & Functions)
+        ~ Formatted String Input (%s, %[], Caution Using it)
+        ~ String Output (Formatted & Unformatted Output - puts & fputs, Qualifiers)
+        ~ Records, Fields, Tables, String Library & Functions, String Length, Compare, Concatenate & Copy
+        ~ More Input & Output, Custom Input, Mismatching Line Input, Insufficient Memory, Safe Coding
+        ~ Pointers, Arrays & Structs - Review, Equivalence (Functions Parameters, Passing a part of an Array,
+                                       Pointer Arithmetic, Array of Structures, Tabular Data, Composition, Member Access,
+                                       Variable Length Arrays)
+        ~ Two-Dimensional Arrays (Matrix-Type) - Syntax, Definition, Order, Passing to a Function, Passing a Specific Row of an Array,
+                                                 Arrays of Character Strings - Definition, A String within an Array of Strings,
+                                                 Address of a character, Input & Output, Functions (Args & Parameters)
+        ~ Algorithms - Searching, Two Algorithms - Unsorted Key Array, Sorted Key Array, Masking, Sorting - Selection & Bubble Sort,
+                                                   Sorting Strings, Mixing
+        ~ Portability - The C Standards (C89, C99, C11), Structured Programs, Static Analysis - Lint Checking & Documentation
+        ~ Guidelines, ASCII Collating Sequence, EBCDIC Collating Sequence
+        ~ Data Conversions - Binary-Hexadecimal, Hexadecimal-Binary, Decimal-Binary, Program Instructions, Operator Precedence
  ```
+
 ----------------------------------------
 Technologies & Tools Used for the Course
 ----------------------------------------
