@@ -8,6 +8,11 @@ Course Description
 After successful completion of this course, it helped me to...
 
 ```
+  * Cover the fundamental principles of computer programming, with an emphasis on problem solving strategies
+    using structured programming techniques.
+  * Land a strong foundation forming the syntactical basis for object-oriented languages such as C++, C#, and Java.
+  * Learn problem analysis, algorithm design, and program implementation.
+  * Work in a cross-platform environment
   * Design functions using selection and iteration constructs to solve a programming task
   * Connect functions using pass-by-value and pass-by-address semantics to assemble a complete program
   * Design collections using arrays and structures to manage data efficiently
