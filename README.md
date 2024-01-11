@@ -8,20 +8,16 @@ Course Description
 After successful completion of this course, it helped me to...
 
 ```
-  * learn Unix and Linux representing the operating system technology underlying many of
-    the services of the Internet.
-  * introduce to Unix, Linux and the Internet.
-  * learn the core utilities to work productively in a Linux environment. 
-  * work using the shell, at the same time learn to configure their login accounts, manipulate
-    data stored in files, effectively use Linux commands and utilities, and write simple shell scripts.
-  * Execute Linux commands to manage files and directories.
-  * Edit text files using common text editors in order to configure the system and write scripts.
-  * Write shell scripts to solve programming problems, including customizing user environments to
-    improve working efficiency.
-  * Describe the directory layout of a typical Linux system in order to maintain and secure Unix
-    directories and files. 5. Use Linux pipes and file redirection to manipulate data.
-  * Form simple regular expressions to define patterns.
-  * Gained a handsome knowledge on all of the topics of UNIX/ LINUX & the Internet namely-
+  * Design functions using selection and iteration constructs to solve a programming task
+  * Connect functions using pass-by-value and pass-by-address semantics to assemble a complete program
+  * Design collections using arrays and structures to manage data efficiently
+  * Code algorithms using standard library functions to incorporate existing technology
+  * Stream data using standard library functions to interact with users and access persistent text
+  * Trace the execution of a procedural program to validate its correctness 
+  * Code complete programs using appropriate object and pointer types to solve programming problems
+  * Explain the purposes of procedural programming features to inform business persons
+  * Prepare programming plans using logical components to solve practical problems
+  * Gained a handsome knowledge on all of the topics of Intro to C Programming namely-
      > Background & Features of UNIX/ LINUX OS
         ~ Purpose of an OS / History of Unix & Linux OS
         ~ Features of Unix / Linux OS
