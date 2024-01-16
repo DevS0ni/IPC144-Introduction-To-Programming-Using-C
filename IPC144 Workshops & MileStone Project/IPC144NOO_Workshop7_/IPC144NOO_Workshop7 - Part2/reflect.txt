@@ -1,0 +1,42 @@
+*****************************************************************************
+Reflection
+Workshop - #7
+Full Name : Soni Dev Alpeshbhai
+Student ID#: 130759210Email      : dasoni4@myseneca.ca
+
+Section    : NOO
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.*****************************************************************************
+
+1. Describe the benefits and advantages of using user-defined types (structures) in this workshop. You must explain
+your answer using an example from this workshop.
+-> By using user-defined types structures, we can actually store different types of data type variables in a single instance or structure. It is like an array, where we can store data but it is different from array, in terms of data types. In array, we can only store similar types of datatype within a single array. However, in structures we can store different types of data type information within a single structure. 
+
+For an example,
+
+struct PlayerDetails
+{
+	int lives;
+	char player_symbol;
+	int treasure_found;
+	int player_history[Max_pathlength];
+};
+
+- Here, we have stored different types of datatype information like int and char within a single instance or structure.
+- With structures, we can represent complex records within a single name, which makes code maintainability easy.
+
+2. If we enhanced this workshop to keep a history of games played including the endgame results, briefly describe
+what two major logical changes you would have to make to your program to make this possible?
+-> There are several methods to keep the history of games played including the end result, but according to me, we have to manage two new integer variables, among them one will be stored to track the history of games played and second one will store the end-result of the game, then we store both values in one array and replace or update this array whenever we get new values of both variables. I found that, this is the simplest way of storing both variable result and manipulate them whenever needed. Another way is, we can use structure with arrays to store the data of the end-result game and history of games played, we can store the data into a new structure with arrays and manipulate them when needed.
+
+
+3. What part of this workshop did you spend the most time working on? What did you do to overcome your
+difficulties?
+-> I spend a lot of time in BOMB placement because this part was quite tricky and you
+have to think a lot to place BOMB in right place. If I use a different variable 
+for placing a BOMB then it would become more difficult for me, so that I use for
+loop and by using this, I can easily place BOMB in right place. This is the part
+where I can spend the most time working and by using the loop overcome my
+difficulties and issues.
