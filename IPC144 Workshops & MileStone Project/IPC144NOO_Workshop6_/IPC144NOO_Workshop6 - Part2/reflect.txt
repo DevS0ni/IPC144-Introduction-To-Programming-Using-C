@@ -1,1 +1,52 @@
-*****************************************************************************                                                                   Reflection                                                                Workshop - #6Full Name : Soni Dev AlpeshbhaiStudent ID#: 130759210Authenticity Declaration:I declare this submission is the result of my own work and has not beenshared with any other student or 3rd party content provider. This submittedpiece of work is entirely of my own creation.*****************************************************************************1. Parallel arrays provide us the ability to group related data. Using what you coded in this workshop, brieflyexplain how you linked related data for any given item in the dataset? What was the ÔkeyÕ used to accomplishthis?-> Parallel arrays, always require homogeneous data, to store within them. For an instance, integer datas must be stored into a integer datatype array. Therefore, for this workshop, if I wanted to store the data of all the different costs, then I did made an array with double datatype, in order to store all the values of costs, in a single array. The ÔkeyÕ which was used to accomplish this was to identify what type of data falls into which type ? If the data type, for a specific type of data was, ÒintegerÓ then it comes into the integer data type and vice versa.2. Why do you think it is common practice to iterate arrays initializing the iterator variable to zero and not to avalue of one? Justify your answer using an example from this workshop.-> Since, array indexes, usually starts with zero, not by 1, that is the reason, why we used to initialize the array with 0, but not with 1. Since, if we start with 1, then it will create an empty unused space for the index with value 0.For an example,	For(i=0;i<=no_of_wish_items;i++){      printf("\n   Item cost: $");      scanf("%lf", &cost[i]);}3. How would you describe conceptually what an array is to a child (5-8-year-old)? How would you describeaccessing an element in the array? Warning: keep your explanation simple or the child will not understand.-> ÒArrayÓ is simply, a vessel or a container containing similar types of blocks (data). We can increase and even decrease the size of an array, as per our will. Arrays are containers used to store and categorize, similar blocks of values (data).
+*****************************************************************************
+
+
+
+                                                                   Reflection
+
+
+                                                                Workshop - #6
+
+
+
+Full Name : 
+Soni Dev Alpeshbhai
+
+Student ID#: 
+130759210
+
+
+
+
+Authenticity Declaration:
+
+
+I declare this submission is the result of my own work and has not been
+
+
+shared with any other student or 3rd party content provider. This submitted
+
+
+piece of work is entirely of my own creation.
+
+*****************************************************************************
+
+1. Parallel arrays provide us the ability to group related data. Using what you coded in this workshop, briefly
+explain how you linked related data for any given item in the dataset? What was the Ã”keyÃ• used to accomplish
+this?
+-> Parallel arrays, always require homogeneous data, to store within them. For an instance, integer datas must be stored into a integer datatype array. Therefore, for this workshop, if I wanted to store the data of all the different costs, then I did made an array with double datatype, in order to store all the values of costs, in a single array. The Ã”keyÃ• which was used to accomplish this was to identify what type of data falls into which type ? If the data type, for a specific type of data was, Ã’integerÃ“ then it comes into the integer data type and vice versa.
+
+2. Why do you think it is common practice to iterate arrays initializing the iterator variable to zero and not to a
+value of one? Justify your answer using an example from this workshop.
+-> Since, array indexes, usually starts with zero, not by 1, that is the reason, why we used to initialize the array with 0, but not with 1. Since, if we start with 1, then it will create an empty unused space for the index with value 0.
+
+For an example,
+
+	For(i=0;i<=no_of_wish_items;i++){
+      printf("\n   Item cost: $");
+      scanf("%lf", &cost[i]);
+}
+
+3. How would you describe conceptually what an array is to a child (5-8-year-old)? How would you describe
+accessing an element in the array? Warning: keep your explanation simple or the child will not understand.
+-> Ã’ArrayÃ“ is simply, a vessel or a container containing similar types of blocks (data). We can increase and even decrease the size of an array, as per our will. Arrays are containers used to store and categorize, similar blocks of values (data).
