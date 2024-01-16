@@ -1,1 +1,157 @@
-*****************************************************************************                                                                        Reflection                                                                Workshop -  #4Full Name : Soni Dev AlpeshbhaiStudent ID#: 130759210Authenticity Declaration:I declare this submission is the result of my own work and has not beenshared with any other student or 3rd party content provider. This submittedpiece of work is entirely of my own creation.*****************************************************************************(1.) “Selection” is an extremely important concept in programming because with the help of selection we can actually solve any logical or relational based task or problem, which makes our work easier and faster. It also solves any computational or decision based problem, in programming.For examples, i.) if((pickApples+applesInBag)==numApples){                        printf("Great, that's the apples done!\n\n");                        break;                }                else if(pickApples<=0){                    printf("ERROR: You must pick at least 1!\n");                }                else if((pickApples+applesInBag)>numApples){                                        printf("You picked too many... only %d more APPLE(S) are needed.\n",(numApples - applesInBag));                }                                else if(pickApples<numApples){                    applesInBag = pickApples;                    printf("Looks like we still need some APPLES...\n");                }                else{                    printf("ERROR !\n\n");                }ii.) if((pickOranges+OrangesInBag)==numOranges){                        printf("Great, that's the oranges done!\n\n");                        break;                }                else if(pickOranges<=0){                    printf("ERROR: You must pick at least 1!\n");                }                else if((pickOranges+OrangesInBag)>numOranges){                                        printf("You picked too many... only %d more ORANGE(S) are needed.\n",(numOranges - OrangesInBag));                }                                else if(pickOranges<numOranges){                    OrangesInBag = pickOranges;                    printf("Looks like we still need some ORANGES...\n");                }                else{                    printf("ERROR !\n\n");                }iii.) if((pickPears+pearsInBag)==numPears){                        printf("Great, that's the pears done!\n\n");                        break;                }                else if(pickPears<=0){                    printf("ERROR: You must pick at least 1!\n");                }                else if((pickPears+pearsInBag)>numPears){                                        printf("You picked too many... only %d more PEAR(S) are needed.\n",(numPears - pearsInBag));                }                                else if(pickPears<numPears){                    pearsInBag = pickPears;                    printf("Looks like we still need some PEARS...\n");                }                else{                    printf("ERROR !\n\n");                }--> These above three examples are of selection construct, which I used for part-2   workshop 4. They all work in a similar manner, which is the deduction (subtraction) of the total number of fruits based on the amount of fruits picked up from the market. So, the above logic really helped me in calculating the total number of fruits, which are actually picked up by the user.(2.)  Nested constructs :- “Nested constructs” are constructs which have constructs within a construct. For an instance, nested if-else, nested for loops,loops within a if – else statement.EXAMPLE : Nested if-else If(){	If(){	}}else{}Example from the program :--i.) else if(c=='Q' && x==0){            if(x==0)                flag = 0;            break;        }Here, else if has a nested construct - simple if construct, which helps to put an extra condition within the program. Here, it helps to quit the program by adding an extra condition to the logic, where it tests or validates that the value of the integer should be 0 in order to exit the program, along with the character ‘Q’. If the input, matches with the ‘Q0’, then it exits the program.ii.) else{                if(c!='D' && c!='W' && c!='F' && c!='Q'){                    printf("ERROR: Invalid entered value(s)!\n");                  }                else if(c=='Q' && x!=0){                    printf("ERROR: To quit, the number of iterations should be 0!\n");                }                                else{                    printf("ERROR: The number of iterations must be between 3-20 inclusive!\n");                }              }Here, the else construct consists a else-if ladder construct, within it, which checks and validates, the possible errors that might happen while running the program. For an example, invalid character, invalid input for exiting the program, etc. Based on the given conditions, like if the character does not have ‘D’,’W’,’F’ and ‘Q’ as an input then the entered value is an invalid character.(3.) My favourite iteration is do…while() loop because it is an exit controlled loop, that means it only checks the condition at the end, after the execution of all the statements. Unlike the other, entry controlled loops like – for and while loops which checks the condition while entering the loop. The main advantage of using a do…while() loop is that, the execution of the statements can be done once, even if the condition is violated, at the first sight.For example, do{            printf("How many APPLES do you need? : ");            scanf("%d",&numApples);            if(numApples<0){                printf("ERROR: Value must be 0 or more.\n");            }            else{                printf("\n");                break;            }        }while(flag==1);Here, the execution of the inner statements would be performed for once, even if the condition is true or false, that’s an assurement!                
+*****************************************************************************
+
+
+
+                                                                        Reflection
+
+
+                                                                Workshop -  #4
+
+
+Full Name : 
+Soni Dev Alpeshbhai
+
+Student ID#: 
+130759210
+
+
+
+
+Authenticity Declaration:
+
+
+I declare this submission is the result of my own work and has not been
+
+
+shared with any other student or 3rd party content provider. This submitted
+
+
+piece of work is entirely of my own creation.
+
+*****************************************************************************
+
+(1.) √íSelection√ì is an extremely important concept in programming because with the help of selection we can actually solve any logical or relational based task or problem, which makes our work easier and faster. It also solves any computational or decision based problem, in programming.
+
+For examples, 
+
+i.) if((pickApples+applesInBag)==numApples){
+                        printf("Great, that's the apples done!\n\n");
+                        break;
+                }
+                else if(pickApples<=0){
+                    printf("ERROR: You must pick at least 1!\n");
+                }
+
+                else if((pickApples+applesInBag)>numApples){
+                    
+                    printf("You picked too many... only %d more APPLE(S) are needed.\n",(numApples - applesInBag));
+                }
+                
+                else if(pickApples<numApples){
+                    applesInBag = pickApples;
+                    printf("Looks like we still need some APPLES...\n");
+                }
+
+                else{
+                    printf("ERROR !\n\n");
+                }
+
+ii.) if((pickOranges+OrangesInBag)==numOranges){
+                        printf("Great, that's the oranges done!\n\n");
+                        break;
+                }
+                else if(pickOranges<=0){
+                    printf("ERROR: You must pick at least 1!\n");
+                }
+
+                else if((pickOranges+OrangesInBag)>numOranges){
+                    
+                    printf("You picked too many... only %d more ORANGE(S) are needed.\n",(numOranges - OrangesInBag));
+                }
+                
+                else if(pickOranges<numOranges){
+                    OrangesInBag = pickOranges;
+                    printf("Looks like we still need some ORANGES...\n");
+                }
+
+                else{
+                    printf("ERROR !\n\n");
+                }
+
+iii.) if((pickPears+pearsInBag)==numPears){
+                        printf("Great, that's the pears done!\n\n");
+                        break;
+                }
+                else if(pickPears<=0){
+                    printf("ERROR: You must pick at least 1!\n");
+                }
+
+                else if((pickPears+pearsInBag)>numPears){
+                    
+                    printf("You picked too many... only %d more PEAR(S) are needed.\n",(numPears - pearsInBag));
+                }
+                
+                else if(pickPears<numPears){
+                    pearsInBag = pickPears;
+                    printf("Looks like we still need some PEARS...\n");
+                }
+
+                else{
+                    printf("ERROR !\n\n");
+                }
+--> These above three examples are of selection construct, which I used for part-2   workshop 4. They all work in a similar manner, which is the deduction (subtraction) of the total number of fruits based on the amount of fruits picked up from the market. So, the above logic really helped me in calculating the total number of fruits, which are actually picked up by the user.
+
+(2.)  Nested constructs :- √íNested constructs√ì are constructs which have constructs within a construct. For an instance, nested if-else, nested for loops,loops within a if √ê else statement.
+EXAMPLE : Nested if-else 
+If(){
+	If(){
+	}
+}
+else{
+
+}
+
+Example from the program :--
+
+i.) else if(c=='Q' && x==0){
+            if(x==0)
+                flag = 0;
+            break;
+        }
+Here, else if has a nested construct - simple if construct, which helps to put an extra condition within the program. Here, it helps to quit the program by adding an extra condition to the logic, where it tests or validates that the value of the integer should be 0 in order to exit the program, along with the character √îQ√ï. If the input, matches with the √îQ0√ï, then it exits the program.
+
+ii.) else{
+                if(c!='D' && c!='W' && c!='F' && c!='Q'){
+                    printf("ERROR: Invalid entered value(s)!\n");  
+                }
+                else if(c=='Q' && x!=0){
+                    printf("ERROR: To quit, the number of iterations should be 0!\n");
+                }
+                
+                else{
+                    printf("ERROR: The number of iterations must be between 3-20 inclusive!\n");
+                }  
+            }
+
+Here, the else construct consists a else-if ladder construct, within it, which checks and validates, the possible errors that might happen while running the program. For an example, invalid character, invalid input for exiting the program, etc. Based on the given conditions, like if the character does not have √îD√ï,√ïW√ï,√ïF√ï and √îQ√ï as an input then the entered value is an invalid character.
+
+(3.) My favourite iteration is do√âwhile() loop because it is an exit controlled loop, that means it only checks the condition at the end, after the execution of all the statements. Unlike the other, entry controlled loops like √ê for and while loops which checks the condition while entering the loop. The main advantage of using a do√âwhile() loop is that, the execution of the statements can be done once, even if the condition is violated, at the first sight.
+For example, 
+
+do{
+            printf("How many APPLES do you need? : ");
+            scanf("%d",&numApples);
+            if(numApples<0){
+                printf("ERROR: Value must be 0 or more.\n");
+            }
+            else{
+                printf("\n");
+                break;
+            }
+        }while(flag==1);
+
+Here, the execution of the inner statements would be performed for once, even if the condition is true or false, that√ïs an assurement!
+
+
+
+                
